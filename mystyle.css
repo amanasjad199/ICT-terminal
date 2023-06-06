@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+.header{
+    min-height: 50vh;
+    width: 30wh;
+    background-position:center;
+    background-image: linear-gradient(rgba(4,9,30,0,7), rgba(4,9,30,0,7)),url(logo.png);
+    background-size: cover;
+    position: relative;
+  }
+.main{
+        background-image: url(templatemo_slide_2.jpg)  ;
+    
+    }
+        
+nav{
+    display: flex;
+    padding:4% 3%;
+    justify-content: space-between;
+    align-items: center;
+    
+   
+}
+.links{
+    flex: 1;
+    text-align: right;
+}
+.links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    
+    }
+.links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.links ul li ::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #fff;
+    display: block;
+    margin:auto;
+    transition:0.2s;
+}
+.links ul li :hover::after{
+    width: 100%;
+  
+}
+.button{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding:12px 34px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    cursor:pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.button:hover{
+    border:1px solid red;
+    background:red;
+    transition:0.5s;
+}
+@media(max-width:768px){
+    .text h1{
+        font-size: 20px;}
+    }
+
+    .picture-container {
+        white-space: nowrap;
+      }
+      
+      .picture-container img {
+        display: inline-block;
+        width: 200px;
+        height: auto;
+        margin-right: 10px;
+
+      }
+      .image-container {
+        position: relative;
+        display: inline-block;
+      }
+      
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      
+      .image-wrapper {
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+      img {
+        width: 100%;
+        height: auto;
+      }
+      
+      button {
+        margin-top: 30px; 
+      }
+      .image-container {
+        display: flex;
+      }
+      
+      .image-container img {
+        flex: 1;
+        max-width: 100%;
+        height: auto;
+      }
